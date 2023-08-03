@@ -1,2 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+namespace Classes;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        var person = Person.Parse("Chaitanya");
+        
+        person.Introduce("World");
+    }
+}
