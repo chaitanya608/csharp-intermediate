@@ -8,18 +8,24 @@ class Program
         // var person = Person.Parse("Chaitanya");
         
         // person.Introduce("World");
-
-        // var customer = new Customer(1, "Chaitanya");
-        //
-        // var order = new Order();
-        // customer.Orders.Add(order);
-        //
-        // Console.WriteLine(customer.Id);
-        // Console.WriteLine(customer.Name);
         
         // UsePoints();
         // UseParams();
-        UseModifier();
+        // UseModifier();
+        UseCustomer();
+    }
+
+    static void UseCustomer()
+    {
+        var customer = new Customer(608, "Chaitanya");
+        
+        customer.Orders.Add(new Order());
+        customer.Orders.Add(new Order());
+        customer.Promote();
+
+        Console.WriteLine(customer.Id);
+        Console.WriteLine(customer.Name);
+        Console.WriteLine(customer.Orders.Count);
     }
 
     static void UseModifier()
