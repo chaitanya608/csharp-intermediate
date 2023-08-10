@@ -12,7 +12,16 @@ class Program
         // UsePoints();
         // UseParams();
         // UseModifier();
-        UseCustomer();
+        // UseCustomer();
+        UsePerson();
+    }
+
+    static void UsePerson()
+    {
+        var person = new Person();
+        person.SetBirthdate(new DateTime(1991, 04, 01));
+
+        Console.WriteLine(person.GetBirthdate());
     }
 
     static void UseCustomer()
