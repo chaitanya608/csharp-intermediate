@@ -18,10 +18,9 @@ class Program
 
     static void UsePerson()
     {
-        var person = new Person();
-        person.SetBirthdate(new DateTime(1991, 04, 01));
+        var person = new Person(new DateTime(1991, 4, 1));
 
-        Console.WriteLine(person.GetBirthdate());
+        Console.WriteLine(person.Age);
     }
 
     static void UseCustomer()

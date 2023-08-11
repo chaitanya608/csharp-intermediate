@@ -2,29 +2,22 @@ namespace Classes;
 
 public class Person
 {
-    public string Name;
-    private DateTime _birthdate;
+    public string Name { get; set; }
+    public DateTime Birthdate { get; private set; }
 
-    public void Introduce(string to)
+    public Person(DateTime birthdate)
     {
-        Console.WriteLine($"Hello {to}, I am {Name}.");
+        Birthdate = birthdate;
     }
 
-    public void SetBirthdate(DateTime birthdate)
+    public int Age
     {
-        _birthdate = birthdate;
-    }
+        get
+        {
+            var timeSpan = DateTime.Today - Birthdate;
+            var years = timeSpan.Days / 365;
 
-    public DateTime GetBirthdate()
-    {
-        return _birthdate;
-    }
-
-    public static Person Parse(string str)
-    {
-        var person = new Person();
-        person.Name = str;
-
-        return person;
+            return years;
+        }
     }
 }
