@@ -13,7 +13,15 @@ class Program
         // UseParams();
         // UseModifier();
         // UseCustomer();
-        UsePerson();
+        // UsePerson();
+        UseHttpCookie();
+    }
+
+    static void UseHttpCookie()
+    {
+        var cookie = new HttpCookie();
+        cookie["name"] = "Chaitanya";
+        Console.WriteLine(cookie["name"]);
     }
 
     static void UsePerson()
