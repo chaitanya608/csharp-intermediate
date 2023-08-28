@@ -1,0 +1,14 @@
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/bin/Debug/net7.0/Inheritance
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/bin/Debug/net7.0/Inheritance.deps.json
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/bin/Debug/net7.0/Inheritance.runtimeconfig.json
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/bin/Debug/net7.0/Inheritance.dll
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/bin/Debug/net7.0/Inheritance.pdb
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/obj/Debug/net7.0/Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/obj/Debug/net7.0/Inheritance.AssemblyInfoInputs.cache
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/obj/Debug/net7.0/Inheritance.AssemblyInfo.cs
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/obj/Debug/net7.0/Inheritance.csproj.CoreCompileInputs.cache
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/obj/Debug/net7.0/Inheritance.dll
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/obj/Debug/net7.0/refint/Inheritance.dll
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/obj/Debug/net7.0/Inheritance.pdb
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/obj/Debug/net7.0/Inheritance.genruntimeconfig.cache
+/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/obj/Debug/net7.0/ref/Inheritance.dll

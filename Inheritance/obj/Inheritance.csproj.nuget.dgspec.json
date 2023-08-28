@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/Inheritance.csproj": {}
+  },
+  "projects": {
+    "/home/ekalavya_in_tech/Learning/csharp-intermediate/Amazon/Amazon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ekalavya_in_tech/Learning/csharp-intermediate/Amazon/Amazon.csproj",
+        "projectName": "Amazon",
+        "projectPath": "/home/ekalavya_in_tech/Learning/csharp-intermediate/Amazon/Amazon.csproj",
+        "packagesPath": "/home/ekalavya_in_tech/.nuget/packages/",
+        "outputPath": "/home/ekalavya_in_tech/Learning/csharp-intermediate/Amazon/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ekalavya_in_tech/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/Inheritance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/Inheritance.csproj",
+        "projectName": "Inheritance",
+        "projectPath": "/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/Inheritance.csproj",
+        "packagesPath": "/home/ekalavya_in_tech/.nuget/packages/",
+        "outputPath": "/home/ekalavya_in_tech/Learning/csharp-intermediate/Inheritance/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ekalavya_in_tech/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/ekalavya_in_tech/Learning/csharp-intermediate/Amazon/Amazon.csproj": {
+                "projectPath": "/home/ekalavya_in_tech/Learning/csharp-intermediate/Amazon/Amazon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
